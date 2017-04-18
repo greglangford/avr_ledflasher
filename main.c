@@ -16,7 +16,7 @@ int main ()
 		PORTD = 0b11101111;
 		_delay_ms(1000);
     PORTD = PORTD << 1;
-    _delay_ms(100);
+    _delay_ms(1000);
     PORTD = PORTD << 1;
     _delay_ms(1000);
 	}
